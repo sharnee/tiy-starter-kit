@@ -1,10 +1,106 @@
-* {
-	font-family: Helvetica, Arial, sans-serif;
-	box-sizing: border-box;
+// $primaryColor: #347928;
+
+// * {
+// 	font-family: Helvetica, Arial, sans-serif;
+// 	box-sizing: border-box;
+// }
+
+// div.spookyContainer {
+// 	h1 {
+// 		color: crimson;
+// 		margin: 1rem;
+// 		font-size: 150px;
+// 		text-align: center;
+// 	}
+// 	.header {
+// 		.nav {
+// 			text-align: center;
+
+// 			a {
+// 				margin: 5%;
+// 				text-decoration: none;
+// 				color: black;
+// 				font-weight: 900;
+// 			}
+// 		}
+// 	}
+
+// 	.theImg {
+// 		text-align: center;
+// 		padding: 10px;
+// 		margin: 10px;
+
+// 		img {
+// 			border: 5px solid red;
+// 		}
+// 	}
+
+// }
+
+
+.skyLineLogo{
+	img{
+		width: 100%;
+	}
+	.tiyLogoPic{
+		img{
+			position: relative;
+			border-radius: 50%;
+			width: 160px;
+			border: 5px solid white;
+			height: 160px;
+			top: -100px;
+			left: 40px;
+		}
+	}
+}
+.leftCol, .rightCol {
+  display: inline-block;
+  vertical-align: top;
+}
+.leftCol {
+  width: 20%;
+  margin-left: 170px;
+  padding-right: 20px;
+  left: 180px;
+  top: 50px;
+}
+.leftCol h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 16pt;
+  font-family: sans-serif;
+}
+.leftCol h2 {
+  color: #C0C0C0;
+  font-size: 14pt;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #C0C0C0; 
+}
+.leftCol {
+	h3{}
+/*   font-weight: bold; */
+  color: #C0C0C0;
+  font-family: Sans-serif;
+}
+[type="text"] {
+  padding: 5px;
+  position: relative;
+}
+.rightCol {
+  width: 38%;
+}
+.rightHeader h1 {
+  font-family: sans-serif;
+  font-size: 24pt;
+  color: dark #C0C0C0;
+}
+.rightHeader {
+	.subtitle h1{
+		font-size: 12pt;
+  		color: #C0C0C0;
+	}
+
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
-}
+
